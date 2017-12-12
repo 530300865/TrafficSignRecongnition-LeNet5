@@ -1,6 +1,15 @@
 # TrafficSignRecongnition-LeNet5
 This is a method about traffic sign recognition based LeNet-5 and Tensorflow and Python3
 
+
+Belgium is a traffic sign method based on Belgium traffic sign dataset and lenet5
+
+BelgiumTS-lenet-5:
+                 1. train.py is the code of training and testing.
+                 2. tmp folder contains the trained model. Accuracy is about 92%.
+                 3.If you want to use the code and model, you need to download the dataset, and put it in this folder.
+
+
 there are two files in in the GTSRB-lenet5. One is about direct recognition method. The other is about two level lenet-5 recognition method.
 These two method use Germany traffic sign dataset.
 
@@ -20,7 +29,9 @@ two-level-recognition:
                 7. If you want to use the code and model, you need to download the dataset, and put it in this folder.
                 
                 
-有两个文件夹，一个放的是直接分类的方法，一个放的是二级lenet-5的方法
+BelgiumTS-lenet-5:包含的是基于比利时交通标志数据集的分类方法
+                
+GTSRB-lenet5 有两个文件夹，一个放的是直接分类的方法，一个放的是二级lenet-5的方法
 
 直接分类文件夹：
                 这个方法使用一级（一层）lenet-5
